@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="sidebar.css">
+</head>
+<body>
+
+	<div id="wrapper">
+		<!--Sidebar-->
+			<div id="sidebar-wrapper">
+			<a class="logo" href="http://www.itclub.keckist.edu.np"><img src="kecitclub.png" width="246"></a><hr>
+				<ul class="sidebar-nav">
+					<li><a href="#"><span class="glyphicon glyphicon-home"></span>Home</a></li><hr>
+					<li><a href="#"><span class="glyphicon glyphicon-user"></span>Account</a></li><hr>
+					<li><a href="#"><span class="glyphicon glyphicon-plus-sign"></span>Register</a></li><hr>
+					<li><a href="#"><span class="glyphicon glyphicon-calendar"></span>Events</a></li><hr>
+					<li><a href="#"><span class="glyphicon glyphicon-list-alt"></span>Articles</a></li><hr>					
+					<li><a href="#"><span class="glyphicon glyphicon-picture"></span>Gallaries</a></li><hr>
+					<li><a href="#"><span class="glyphicon glyphicon-phone"></span>Contact US</a></li><hr>
+					<li><a href="https://wego.here.com/directions/mix//KEC-I.T.-Club,-Kathmandu,-Nepal:e-eyJuYW1lIjoiS0VDIEkuVC4gQ2x1YiIsImFkZHJlc3MiOiJLYXRobWFuZHUsIE5lcGFsIiwibGF0aXR1ZGUiOjI3LjY5ODM0LCJsb25naXR1ZGUiOjg1LjI5NTYyLCJwcm92aWRlck5hbWUiOiJmYWNlYm9vayIsInByb3ZpZGVySWQiOjExOTE3NTM5NzA4NTczMDR9?map=27.69834,85.29562,15,normal&fb_locale=en_US"><span class="glyphicon glyphicon-map-marker"></span>About Us</a></li><hr>
+					<li><a href="#"><span class="glyphicon glyphicon-log-out"></span>Logout</a></li>
+				</ul>
+			</div>
+		<!-- Main Content-->
+		<!--<div id="button-wrapper">
+			<input type="button" class="btn btn-primary" id="menu-toggle" value=">>"/>
+		</div>-->
+		<div class="container" onclick="myFunction(this)">
+  		 	<div class="bar1"></div>
+ 		 	<div class="bar2"></div>
+  		 	<div class="bar3"></div>
+			<div id="page-content-wrapper">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12">
+							<h1>Kathmandu Engineering College IT Club</h1>
+							<p>Kathmandu Engineering College is a Tribhuvan University (TU) affiliated, Private College located at Kalimati, Kathmandu. The college started in 1998 and is the first ISO: 9001:2008 certified college in Nepal. It is an autonomous college from the perspectives of administration, staff and teacher recruitment as well as college development, and is managed by a team of excellent board members. The college has been growing towards strength since its inception.
+
+							The KEC compound expands over 30 ropanies— comprising of land leased and owned by the college—in Kalimati, Mulpani, Jay Bageshwori and Sukedhara, and boasts of all the facilities required to ensure a sound academic environment. The accessibility of the college is among its prominent features as it can be reached by public transport at any time. Besides, the college also offers transportation facilities of its own, and provides parking space for both two as well as four wheelers. Well organized departments, a well equipped library, a student’s amenities centre, a multipurpose hall, an administrative block, specified labs, and clean strolling paths and lawns constitute the KEC campus.
+							Kathmandu Engineering College blends academic wisdom with equal fractions of liberty and hard work. You learn countless little details of life alongside our exquisite curriculum here.
+
+							Our emphasis is on creating an understanding environment, rather than just teaching and studying. Our motive is to instil the practice of listening, observing and speaking in our students.
+
+							We at KEC provide a reliable choice of Bachelor degree courses with a focus on both practical and theoretical engineering studies: Architecture, Civil Engineering, Computer Engineering, Electrical Engineering, Electronics and Communication Engineering.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="script.js"></script>
+		<script type="text/javascript">
+		function myFunction(x){
+			x.classList.toggle("change");
+			$('.sidebar-wrapper').toggle('fast');
+			$("#wrapper").toggleClass("menuDisplayed");
+		}
+	</script>
+
+</body>
+</html>
